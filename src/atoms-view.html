@@ -1,0 +1,21 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<dom-module id="atoms-view">
+  <template>
+    <style>
+      :host {
+        display: block;
+        padding: 0.5rem;
+      }
+    </style>
+    <h1>Atoms View</h1>
+  </template>
+
+  <script>
+    class AtomsView extends Polymer.Element {
+      static get is() { return 'atoms-view'; }
+    }
+
+    customElements.define(AtomsView.is, AtomsView);
+  </script>
+</dom-module>
