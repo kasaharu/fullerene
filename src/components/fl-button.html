@@ -1,0 +1,15 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<dom-module id="fl-button">
+  <template>
+    <button type="button">Button</button>
+  </template>
+
+  <script>
+    class FlButton extends Polymer.Element {
+      static get is() { return 'fl-button'; }
+    }
+
+    customElements.define(FlButton.is, FlButton);
+  </script>
+</dom-module>
