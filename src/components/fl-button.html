@@ -31,12 +31,20 @@
       }
     </style>
 
-    <button class="button" type="button">Button</button>
+    <button class="button" type="button">[[value]]</button>
   </template>
 
   <script>
     class FlButton extends Polymer.Element {
       static get is() { return 'fl-button'; }
+
+      static get properties() {
+        return {
+          value: {
+            type: String,
+          },
+        };
+      }
     }
 
     customElements.define(FlButton.is, FlButton);
