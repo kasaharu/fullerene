@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "Fullerene",
+  "short_name": "Fullerene",
+  "description": "Fullerene description",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",
